@@ -79,5 +79,10 @@ try:
     respuesta.raise_for_status()
     mostrar_respuesta(respuesta)
 
+    respuesta.raise_for_status()
+    mostrar_respuesta(respuesta)
+    
+    
+    
 except requests.exceptions.Timeout:
     print("Error: se agoto el tiempo de espera")
